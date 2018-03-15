@@ -1,2 +1,0 @@
-# dns
-test repository
