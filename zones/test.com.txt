@@ -1,1 +1,18 @@
-
+$ORIGIN test.com.
+$TTL 1800
+test.com. IN SOA ns1.digitalocean.com. hostmaster.test.com. 1516328309 10800 3600 604800 1800
+test.com. 1800 IN NS ns1.digitalocean.com.
+test.com. 1800 IN NS ns2.digitalocean.com.
+test.com. 1800 IN NS ns3.digitalocean.com.
+test.com. 3600 IN A 138.197.54.110
+calendar.test.com. 3600 IN CNAME ghs.googlehosted.com.
+drive.test.com. 3600 IN CNAME ghs.googlehosted.com.
+mail.test.com. 3600 IN CNAME ghs.googlehosted.com.
+email.test.com. 3600 IN CNAME mailgun.org.
+staging.test.com. 3600 IN CNAME test.com.
+www.test.com. 3600 IN CNAME test.com.
+test.com. 86400 IN MX 1 aspmx.l.google.com.
+test.com. 86400 IN MX 5 alt1.aspmx.l.google.com.
+test.com. 86400 IN MX 5 alt2.aspmx.l.google.com.
+test.com. 86400 IN MX 10 alt3.aspmx.l.google.com.
+test.com. 86400 IN MX 10 alt4.aspmx.l.google.com.
