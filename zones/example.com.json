@@ -3,14 +3,22 @@
         "name": "andrewmichaelbrown.com",
         "ttl": 3600,
         "record_class": "IN",
-        "record_type": "A",
-        "record_value": "192.168.12.10"
+        "type": "A",
+        "data": "192.168.12.10"
     },
     {
         "name": "deployer",
         "ttl": 3600,
-        "record_class": "IN",
-        "record_type": "CNAME",
-        "record_value": "192.168.12.10"
+        "class": "IN",
+        "type": "CNAME",
+        "data": "192.168.12.10"
+    },
+    {
+        "name": "deployer",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "MX",
+        "priority": 10,
+        "data": "aspmx1.google.com"
     }
 ]
