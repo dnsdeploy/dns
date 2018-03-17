@@ -2,7 +2,7 @@
     {
         "name": "andrewmichaelbrown.com",
         "ttl": 3600,
-        "record_class": "IN",
+        "class": "IN",
         "type": "A",
         "data": "192.168.12.10"
     },
