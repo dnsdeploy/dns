@@ -1,3 +1,3 @@
 # dns
 
-test repository with zone filesd
+Example zone files for DNS Deploy.
