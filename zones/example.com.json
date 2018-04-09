@@ -19,6 +19,6 @@
         "class": "IN",
         "type": "MX",
         "priority": 10,
-        "data": "aspmx1.google.com"
+        "data": "aspmx1.google.com."
     }
 ]
