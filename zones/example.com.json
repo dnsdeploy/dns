@@ -11,7 +11,7 @@
         "ttl": 3600,
         "class": "IN",
         "type": "CNAME",
-        "data": "example.com"
+        "data": "example.com."
     },
     {
         "name": "example.com",
