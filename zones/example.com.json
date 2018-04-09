@@ -50,4 +50,18 @@
         "priority": 20,
         "data": "aspmx2.google.com."
     }
+    {
+        "name": "example.com",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "TXT",
+        "data": "google-site-verification=this-is-a-fake-code"
+    }
+    {
+        "name": "example.com",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "TXT",
+        "data": "v=spf1 include:spf.google.com ~all""
+    }
 ]
