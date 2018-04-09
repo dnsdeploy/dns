@@ -41,5 +41,13 @@
         "type": "MX",
         "priority": 10,
         "data": "aspmx1.google.com."
+    },
+    {
+        "name": "example.com",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "MX",
+        "priority": 20,
+        "data": "aspmx2.google.com."
     }
 ]
