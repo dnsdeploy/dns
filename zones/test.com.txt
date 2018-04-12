@@ -1,6 +1,3 @@
-$ORIGIN test.com.
-$TTL 1800
-test.com. IN SOA ns1.digitalocean.com. hostmaster.test.com. 1516328309 10800 3600 604800 1800
 test.com. 1800 IN NS ns1.digitalocean.com.
 test.com. 1800 IN NS ns2.digitalocean.com.
 test.com. 1800 IN NS ns3.digitalocean.com.
