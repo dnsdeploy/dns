@@ -62,6 +62,6 @@
         "ttl": 3600,
         "class": "IN",
         "type": "TXT",
-        "data": "v=spf1 include:spf.google.com ~all""
+        "data": "v=spf1 include:spf.google.com ~all"
     }
 ]
