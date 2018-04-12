@@ -1,3 +1,9 @@
-example.com 3600 IN A 192.168.12.10
-www 3600 IN CNAME 192.168.12.10
-example.com 3600 IN MX 10 aspmx1.google.com
+example.com. 3600 IN NS ns1.example.com.
+example.com. 3600 IN NS ns2.example.com.
+example.com. 3600 IN A 192.168.12.10
+www 3600 IN CNAME example.com.
+staging 3600 IN CNAME example.com.
+example.com. 3600 IN MX 10 aspmx1.google.com.
+example.com. 3600 IN MX 10 aspmx2.google.com.
+example.com. 3600 IN TXT "google-site-verification=this-is-a-fake-code"
+example.com. 3600 IN TXT "v=spf1 include:spf.google.com ~all"
