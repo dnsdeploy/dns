@@ -1,0 +1,105 @@
+[
+    {
+        "name": "test.com.",
+        "ttl": 1800,
+        "class": "IN",
+        "type": "NS",
+        "data": "ns1.digitalocean.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 1800,
+        "class": "IN",
+        "type": "NS",
+        "data": "ns2.digitalocean.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 1800,
+        "class": "IN",
+        "type": "NS",
+        "data": "ns3.digitalocean.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "A",
+        "data": "192.168.12.10"
+    },
+    {
+        "name": "www",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "CNAME",
+        "data": "test.com."
+    },
+    {
+        "name": "staging",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "CNAME",
+        "data": "test.com."
+    },
+    {
+        "name": "calendar",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "CNAME",
+        "data": "ghs.googlehosted.com."
+    },
+    {
+        "name": "drive",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "CNAME",
+        "data": "ghs.googlehosted.com."
+    },
+    {
+        "name": "mail",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "CNAME",
+        "data": "ghs.googlehosted.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 86400,
+        "class": "IN",
+        "type": "MX",
+        "priority": 1,
+        "data": "aspmx.l.google.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 86400,
+        "class": "IN",
+        "type": "MX",
+        "priority": 5,
+        "data": "alt1.aspmx.l.google.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 86400,
+        "class": "IN",
+        "type": "MX",
+        "priority": 5,
+        "data": "alt2.aspmx.l.google.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 86400,
+        "class": "IN",
+        "type": "MX",
+        "priority": 10,
+        "data": "alt3.aspmx.l.google.com."
+    },
+    {
+        "name": "test.com.",
+        "ttl": 86400,
+        "class": "IN",
+        "type": "MX",
+        "priority": 10,
+        "data": "alt4.aspmx.l.google.com."
+    }
+]
