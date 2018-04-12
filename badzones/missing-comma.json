@@ -1,0 +1,16 @@
+[
+    {
+        "name": "example.com.",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "NS",
+        "data": "ns1.example.com."
+    }
+    {
+        "name": "example.com.",
+        "ttl": 3600,
+        "class": "IN",
+        "type": "NS",
+        "data": "ns2.example.com."
+    }
+]
