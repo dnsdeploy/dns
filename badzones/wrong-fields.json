@@ -1,0 +1,16 @@
+[
+    {
+        "book": "example.com.",
+        "soccer": 3600,
+        "cup": "IN",
+        "table": "NS",
+        "hat": "ns1.example.com."
+    },
+    {
+        "paper": "example.com.",
+        "jacket": 3600,
+        "tv": "IN",
+        "door": "NS",
+        "sink": "ns2.example.com."
+    }
+]
