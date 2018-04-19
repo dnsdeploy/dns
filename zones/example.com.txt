@@ -1,9 +1,18 @@
-example.com. 3600 IN NS ns1.example.com.
-example.com. 3600 IN NS ns2.example.com.
-example.com. 3600 IN A 192.168.12.10
-www 3600 IN CNAME example.com.
-staging 3600 IN CNAME example.com.
-example.com. 3600 IN MX 10 aspmx1.google.com.
-example.com. 3600 IN MX 20 aspmx2.google.com.
-example.com. 3600 IN TXT "google-site-verification=this-is-a-fake-code"
-example.com. 3600 IN TXT "v=spf1 include:spf.google.com ~all"
+example.com. 1000 IN NS ns1.example.com.
+example.com. 1001 IN NS ns2.example.com.
+example.com. 1002 IN NS ns3.example.com.
+example.com. 2000 IN A 255.255.255.255
+example.com. 3000 IN AAAA 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+www 4000 IN CNAME example.com.
+staging 4001 IN CNAME example.com.
+example.com. 5000 IN MX 10 email1.server.com.
+example.com. 5001 IN MX 20 email2.server.com.
+example.com. 5002 IN MX 30 email3.server.com.
+example.com. 5003 IN MX 40 email4.server.com.
+example.com. 5004 IN MX 50 email5.server.com.
+example.com. 6000 IN TXT "google-site-verification"
+example.com. 6001 IN TXT "v=spf"
+_sip._tcp 7000 IN SRV 10 60 5060 bigbox.example.com.
+_sip._tcp 7001 IN SRV 10 20 5060 smallbox.example.com.
+example.com. 8000 IN CAA 0 issue "letsencrypt.org"
+example.com. 8001 IN CAA 0 issuewild "comodoca.com"
