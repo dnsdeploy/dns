@@ -1,67 +1,143 @@
 [
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 1000,
         "class": "IN",
         "type": "NS",
         "data": "ns1.example.com."
     },
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 1001,
         "class": "IN",
         "type": "NS",
         "data": "ns2.example.com."
     },
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 1002,
+        "class": "IN",
+        "type": "NS",
+        "data": "ns3.example.com."
+    },
+    {
+        "name": "example.com.",
+        "ttl": 2000,
         "class": "IN",
         "type": "A",
-        "data": "192.168.12.10"
+        "data": "255.255.255.255"
+    },
+    {
+        "name": "example.com.",
+        "ttl": 3000,
+        "class": "IN",
+        "type": "AAAA",
+        "data": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
     },
     {
         "name": "www",
-        "ttl": 3600,
+        "ttl": 4000,
         "class": "IN",
         "type": "CNAME",
         "data": "example.com."
     },
     {
         "name": "staging",
-        "ttl": 3600,
+        "ttl": 4001,
         "class": "IN",
         "type": "CNAME",
         "data": "example.com."
     },
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 5000,
         "class": "IN",
         "type": "MX",
         "priority": 10,
-        "data": "aspmx1.google.com."
+        "data": "email1.server.com."
     },
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 5001,
         "class": "IN",
         "type": "MX",
         "priority": 20,
-        "data": "aspmx2.google.com."
+        "data": "email2.server.com."
     },
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 5002,
         "class": "IN",
-        "type": "TXT",
-        "data": "google-site-verification=this-is-a-fake-code"
+        "type": "MX",
+        "priority": 30,
+        "data": "email3.server.com."
     },
     {
         "name": "example.com.",
-        "ttl": 3600,
+        "ttl": 5003,
+        "class": "IN",
+        "type": "MX",
+        "priority": 40,
+        "data": "email4.server.com."
+    },
+    {
+        "name": "example.com.",
+        "ttl": 5004,
+        "class": "IN",
+        "type": "MX",
+        "priority": 50,
+        "data": "email5.server.com."
+    },
+    {
+        "name": "example.com.",
+        "ttl": 6000,
         "class": "IN",
         "type": "TXT",
-        "data": "v=spf1 include:spf.google.com ~all"
+        "data": "google-site-verification"
+    },
+    {
+        "name": "example.com.",
+        "ttl": 6001,
+        "class": "IN",
+        "type": "TXT",
+        "data": "v=spf"
+    },
+    {
+        "name": "_sip._tcp",
+        "ttl": 7000,
+        "class": "IN",
+        "type": "SRV",
+        "priority": 10,
+        "weight": 60,
+        "port": 5060,
+        "data": "bigbox.example.com."
+    },
+    {
+        "name": "_sip._tcp",
+        "ttl": 7001,
+        "class": "IN",
+        "type": "SRV",
+        "priority": 10,
+        "weight": 20,
+        "port": 5060,
+        "data": "smallbox.example.com."
+    },
+    {
+        "name": "example.com.",
+        "ttl": 8000,
+        "class": "IN",
+        "type": "CAA",
+        "flags": 0,
+        "tag": "issue",
+        "data": "letsencrypt.org"
+    },
+    {
+        "name": "example.com.",
+        "ttl": 8001,
+        "class": "IN",
+        "type": "CAA",
+        "flags": 0,
+        "tag": "issuewild",
+        "data": "comodoca.com"
     }
 ]
