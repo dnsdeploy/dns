@@ -129,7 +129,7 @@
         "type": "CAA",
         "flags": 0,
         "tag": "issue",
-        "data": "letsencrypt.org"
+        "data": "letsencrypt.org."
     },
     {
         "name": "example.com.",
@@ -138,6 +138,6 @@
         "type": "CAA",
         "flags": 0,
         "tag": "issuewild",
-        "data": "comodoca.com"
+        "data": "comodoca.com."
     }
 ]
