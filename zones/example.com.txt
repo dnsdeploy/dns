@@ -14,5 +14,5 @@ example.com. 6000 IN TXT "google-site-verification"
 example.com. 6001 IN TXT "v=spf"
 _sip._tcp 7000 IN SRV 10 60 5060 bigbox.example.com.
 _sip._tcp 7001 IN SRV 10 20 5060 smallbox.example.com.
-example.com. 8000 IN CAA 0 issue "letsencrypt.org"
-example.com. 8001 IN CAA 0 issuewild "comodoca.com"
+example.com. 8000 IN CAA 0 issue "letsencrypt.org."
+example.com. 8001 IN CAA 0 issuewild "comodoca.com."
